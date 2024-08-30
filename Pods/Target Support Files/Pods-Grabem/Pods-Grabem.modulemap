@@ -1,0 +1,6 @@
+framework module Pods_Grabem {
+  umbrella header "Pods-Grabem-umbrella.h"
+
+  export *
+  module * { export * }
+}

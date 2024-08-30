@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42CBB3812164A49E54843813 /* Pods_GrabemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC7D2514592B13DE7D1B155 /* Pods_GrabemTests.framework */; };
+		4838D4C538B9E3E1637E21CB /* Pods_Grabem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8D71D5DD6C7BA990B86797 /* Pods_Grabem.framework */; };
+		4F0D5C2C20B620530036B361 /* RestaurantListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D5C2B20B620530036B361 /* RestaurantListObject.swift */; };
+		4F14A49F20A26A3C005325BA /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A49E20A26A3C005325BA /* LogInVC.swift */; };
+		4F14A4A120A26AA5005325BA /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F14A4A020A26AA5005325BA /* ForgotPasswordVC.swift */; };
+		4F19A13020ABA8A400A3931F /* CommonMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A12F20ABA8A300A3931F /* CommonMethod.swift */; };
+		4F19A13220ABC25B00A3931F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F19A13120ABC25B00A3931F /* AppConstants.swift */; };
+		4F2B287620ACC95E00D952B5 /* ServiceClassMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2B287520ACC95E00D952B5 /* ServiceClassMethods.swift */; };
+		4F2B287820ACCCBC00D952B5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2B287720ACCCBC00D952B5 /* Reachability.swift */; };
+		4F2B287A20ACCCCC00D952B5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2B287920ACCCCC00D952B5 /* Helper.swift */; };
+		4F2F66F1211B3789008BC8E5 /* LocationVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F66F0211B3789008BC8E5 /* LocationVc.swift */; };
+		4F2F66F3211B484B008BC8E5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F66F2211B484B008BC8E5 /* File.swift */; };
+		4F3B4FF521EF0FE600BC6CF9 /* VisitedRestaurantListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B4FF421EF0FE600BC6CF9 /* VisitedRestaurantListVC.swift */; };
+		4F3B4FF821EF1B2700BC6CF9 /* VisitedRestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B4FF621EF1B2700BC6CF9 /* VisitedRestaurantTableViewCell.swift */; };
+		4F3B4FF921EF1B2700BC6CF9 /* VisitedRestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F3B4FF721EF1B2700BC6CF9 /* VisitedRestaurantTableViewCell.xib */; };
+		4F4D99FC20E1740100E368BD /* CellDescrptn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D99FB20E1740100E368BD /* CellDescrptn.swift */; };
+		4F60408E20A42E7A00909EE5 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60408D20A42E7A00909EE5 /* ChangePasswordVC.swift */; };
+		4F60409020A42E9300909EE5 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60408F20A42E9300909EE5 /* SettingsVC.swift */; };
+		4F60409220A42EA900909EE5 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60409120A42EA900909EE5 /* SignUpVC.swift */; };
+		4F60409420A42EC800909EE5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60409320A42EC800909EE5 /* HomeVC.swift */; };
+		4F60409820A42EF600909EE5 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60409720A42EF600909EE5 /* ContactVC.swift */; };
+		4F60409A20A42F0900909EE5 /* SecondFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60409920A42F0900909EE5 /* SecondFilterVC.swift */; };
+		4F60409D20A44B9300909EE5 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60409C20A44B9300909EE5 /* TabbarVC.swift */; };
+		4F6CD23621F090F6008BE598 /* ScannedListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CD23521F090F6008BE598 /* ScannedListDataModel.swift */; };
+		4F6E124021EEFB96002035E9 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E123F21EEFB96002035E9 /* ScannerVC.swift */; };
+		4FA9E48C20A0D37D007C01E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA9E48B20A0D37D007C01E3 /* AppDelegate.swift */; };
+		4FA9E49120A0D37D007C01E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA9E48F20A0D37D007C01E3 /* Main.storyboard */; };
+		4FA9E49320A0D37D007C01E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA9E49220A0D37D007C01E3 /* Assets.xcassets */; };
+		4FA9E49620A0D37D007C01E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA9E49420A0D37D007C01E3 /* LaunchScreen.storyboard */; };
+		4FA9E4A120A0D37D007C01E3 /* GrabemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA9E4A020A0D37D007C01E3 /* GrabemTests.swift */; };
+		4FA9E4AC20A0D37D007C01E3 /* GrabemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA9E4AB20A0D37D007C01E3 /* GrabemUITests.swift */; };
+		4FA9E4BA20A0E2B6007C01E3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA9E4B920A0E2B6007C01E3 /* Extensions.swift */; };
+		4FA9E4C020A0E717007C01E3 /* Helvi1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FA9E4BC20A0E717007C01E3 /* Helvi1.ttf */; };
+		4FA9E4C120A0E717007C01E3 /* Helvi2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FA9E4BD20A0E717007C01E3 /* Helvi2.ttf */; };
+		4FA9E4C220A0E717007C01E3 /* Helvi3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FA9E4BE20A0E717007C01E3 /* Helvi3.ttf */; };
+		4FA9E4C320A0E717007C01E3 /* Helvi4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FA9E4BF20A0E717007C01E3 /* Helvi4.ttf */; };
+		4FEF84B120AE4F40008538B2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEF84AF20AE4F3F008538B2 /* FBSDKCoreKit.framework */; };
+		4FEF84B220AE4F40008538B2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEF84B020AE4F3F008538B2 /* FBSDKLoginKit.framework */; };
+		4FEF85C120AE6BD7008538B2 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85A920AE6BD6008538B2 /* AbstractActionSheetPicker.m */; };
+		4FEF85C220AE6BD7008538B2 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85AB20AE6BD6008538B2 /* ActionSheetCustomPicker.m */; };
+		4FEF85C320AE6BD7008538B2 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85AE20AE6BD6008538B2 /* ActionSheetDatePicker.m */; };
+		4FEF85C420AE6BD7008538B2 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85B020AE6BD6008538B2 /* ActionSheetDistancePicker.m */; };
+		4FEF85C520AE6BD7008538B2 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85B220AE6BD6008538B2 /* ActionSheetLocalePicker.m */; };
+		4FEF85C620AE6BD7008538B2 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85B420AE6BD6008538B2 /* ActionSheetStringPicker.m */; };
+		4FEF85C720AE6BD7008538B2 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85B520AE6BD6008538B2 /* DatePickerDialog.swift */; };
+		4FEF85C820AE6BD7008538B2 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85B720AE6BD6008538B2 /* DistancePickerView.m */; };
+		4FEF85C920AE6BD7008538B2 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85B920AE6BD6008538B2 /* SWActionSheet.m */; };
+		4FEF85CC20AE6BD7008538B2 /* FHSStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85BE20AE6BD6008538B2 /* FHSStream.m */; };
+		4FEF85CD20AE6BD7008538B2 /* FHSTwitterEngine1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF85C020AE6BD6008538B2 /* FHSTwitterEngine1.m */; };
+		4FEFB0EE20A419F600169D7A /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEFB0E720A419F400169D7A /* InfoWindow.xib */; };
+		4FEFB0EF20A419F600169D7A /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEFB0E820A419F400169D7A /* ListTableViewCell.xib */; };
+		4FEFB0F020A419F600169D7A /* InfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFB0E920A419F400169D7A /* InfoWindow.swift */; };
+		4FEFB0F120A419F600169D7A /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFB0EA20A419F500169D7A /* ListTableViewCell.swift */; };
+		4FEFB0F220A419F600169D7A /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFB0EB20A419F500169D7A /* MapVC.swift */; };
+		4FEFB0F320A419F600169D7A /* DescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFB0EC20A419F500169D7A /* DescriptionVC.swift */; };
+		4FEFB0F420A419F600169D7A /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFB0ED20A419F600169D7A /* ListVC.swift */; };
+		9572DDB17BD9B3C89C9C81CB /* Pods_GrabemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A7733311BBAE5E58375C10 /* Pods_GrabemUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FA9E49D20A0D37D007C01E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA9E48020A0D37C007C01E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA9E48720A0D37C007C01E3;
+			remoteInfo = Grabem;
+		};
+		4FA9E4A820A0D37D007C01E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA9E48020A0D37C007C01E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA9E48720A0D37C007C01E3;
+			remoteInfo = Grabem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F6B5123C47693A1F988C967 /* Pods-GrabemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabemTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrabemTests/Pods-GrabemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21D3DA0627217E49658C1FA5 /* Pods-Grabem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grabem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grabem/Pods-Grabem.debug.xcconfig"; sourceTree = "<group>"; };
+		2CC7D2514592B13DE7D1B155 /* Pods_GrabemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A7733311BBAE5E58375C10 /* Pods_GrabemUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabemUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A33BC6F9232EFFF5B3386D8 /* Pods-Grabem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grabem.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grabem/Pods-Grabem.release.xcconfig"; sourceTree = "<group>"; };
+		4F0D5C2B20B620530036B361 /* RestaurantListObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListObject.swift; sourceTree = "<group>"; };
+		4F14A49E20A26A3C005325BA /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		4F14A4A020A26AA5005325BA /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		4F19A12F20ABA8A300A3931F /* CommonMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethod.swift; sourceTree = "<group>"; };
+		4F19A13120ABC25B00A3931F /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		4F2B287520ACC95E00D952B5 /* ServiceClassMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceClassMethods.swift; sourceTree = "<group>"; };
+		4F2B287720ACCCBC00D952B5 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4F2B287920ACCCCC00D952B5 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4F2F66F0211B3789008BC8E5 /* LocationVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVc.swift; sourceTree = "<group>"; };
+		4F2F66F2211B484B008BC8E5 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		4F3B4FF421EF0FE600BC6CF9 /* VisitedRestaurantListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedRestaurantListVC.swift; sourceTree = "<group>"; };
+		4F3B4FF621EF1B2700BC6CF9 /* VisitedRestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedRestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		4F3B4FF721EF1B2700BC6CF9 /* VisitedRestaurantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisitedRestaurantTableViewCell.xib; sourceTree = "<group>"; };
+		4F4D99FB20E1740100E368BD /* CellDescrptn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDescrptn.swift; sourceTree = "<group>"; };
+		4F60408D20A42E7A00909EE5 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		4F60408F20A42E9300909EE5 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		4F60409120A42EA900909EE5 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		4F60409320A42EC800909EE5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		4F60409720A42EF600909EE5 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		4F60409920A42F0900909EE5 /* SecondFilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFilterVC.swift; sourceTree = "<group>"; };
+		4F60409C20A44B9300909EE5 /* TabbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		4F6CD23521F090F6008BE598 /* ScannedListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedListDataModel.swift; sourceTree = "<group>"; };
+		4F6E123F21EEFB96002035E9 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		4FA9E48820A0D37C007C01E3 /* Grabem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grabem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA9E48B20A0D37D007C01E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FA9E49020A0D37D007C01E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FA9E49220A0D37D007C01E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FA9E49520A0D37D007C01E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FA9E49720A0D37D007C01E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA9E49C20A0D37D007C01E3 /* GrabemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA9E4A020A0D37D007C01E3 /* GrabemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabemTests.swift; sourceTree = "<group>"; };
+		4FA9E4A220A0D37D007C01E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA9E4A720A0D37D007C01E3 /* GrabemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA9E4AB20A0D37D007C01E3 /* GrabemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabemUITests.swift; sourceTree = "<group>"; };
+		4FA9E4AD20A0D37D007C01E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA9E4B920A0E2B6007C01E3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4FA9E4BC20A0E717007C01E3 /* Helvi1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Helvi1.ttf; sourceTree = "<group>"; };
+		4FA9E4BD20A0E717007C01E3 /* Helvi2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Helvi2.ttf; sourceTree = "<group>"; };
+		4FA9E4BE20A0E717007C01E3 /* Helvi3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Helvi3.ttf; sourceTree = "<group>"; };
+		4FA9E4BF20A0E717007C01E3 /* Helvi4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Helvi4.ttf; sourceTree = "<group>"; };
+		4FEF84AF20AE4F3F008538B2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4FEF84B020AE4F3F008538B2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4FEF859720AE6BD5008538B2 /* Grabem-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grabem-Bridging-Header.h"; sourceTree = "<group>"; };
+		4FEF85A820AE6BD6008538B2 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		4FEF85A920AE6BD6008538B2 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		4FEF85AA20AE6BD6008538B2 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		4FEF85AB20AE6BD6008538B2 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		4FEF85AC20AE6BD6008538B2 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		4FEF85AD20AE6BD6008538B2 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		4FEF85AE20AE6BD6008538B2 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		4FEF85AF20AE6BD6008538B2 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		4FEF85B020AE6BD6008538B2 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		4FEF85B120AE6BD6008538B2 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		4FEF85B220AE6BD6008538B2 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		4FEF85B320AE6BD6008538B2 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		4FEF85B420AE6BD6008538B2 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		4FEF85B520AE6BD6008538B2 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		4FEF85B620AE6BD6008538B2 /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		4FEF85B720AE6BD6008538B2 /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		4FEF85B820AE6BD6008538B2 /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		4FEF85B920AE6BD6008538B2 /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		4FEF85BD20AE6BD6008538B2 /* FHSStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHSStream.h; sourceTree = "<group>"; };
+		4FEF85BE20AE6BD6008538B2 /* FHSStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHSStream.m; sourceTree = "<group>"; };
+		4FEF85BF20AE6BD6008538B2 /* FHSTwitterEngine1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHSTwitterEngine1.h; sourceTree = "<group>"; };
+		4FEF85C020AE6BD6008538B2 /* FHSTwitterEngine1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHSTwitterEngine1.m; sourceTree = "<group>"; };
+		4FEFB0E720A419F400169D7A /* InfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
+		4FEFB0E820A419F400169D7A /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		4FEFB0E920A419F400169D7A /* InfoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoWindow.swift; sourceTree = "<group>"; };
+		4FEFB0EA20A419F500169D7A /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		4FEFB0EB20A419F500169D7A /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		4FEFB0EC20A419F500169D7A /* DescriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionVC.swift; sourceTree = "<group>"; };
+		4FEFB0ED20A419F600169D7A /* ListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		54F23EFDC985D7B816FB3A8C /* Pods-GrabemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabemUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrabemUITests/Pods-GrabemUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56CF397BFA17C3A3E627281C /* Pods-GrabemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabemTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrabemTests/Pods-GrabemTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA8D71D5DD6C7BA990B86797 /* Pods_Grabem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grabem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1C636618C1B94A74FA25AD /* Pods-GrabemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabemUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrabemUITests/Pods-GrabemUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA9E48520A0D37C007C01E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4838D4C538B9E3E1637E21CB /* Pods_Grabem.framework in Frameworks */,
+				4FEF84B120AE4F40008538B2 /* FBSDKCoreKit.framework in Frameworks */,
+				4FEF84B220AE4F40008538B2 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA9E49920A0D37D007C01E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CBB3812164A49E54843813 /* Pods_GrabemTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA9E4A420A0D37D007C01E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9572DDB17BD9B3C89C9C81CB /* Pods_GrabemUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E97F77920BE0043AA404F3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21D3DA0627217E49658C1FA5 /* Pods-Grabem.debug.xcconfig */,
+				3A33BC6F9232EFFF5B3386D8 /* Pods-Grabem.release.xcconfig */,
+				0F6B5123C47693A1F988C967 /* Pods-GrabemTests.debug.xcconfig */,
+				56CF397BFA17C3A3E627281C /* Pods-GrabemTests.release.xcconfig */,
+				DE1C636618C1B94A74FA25AD /* Pods-GrabemUITests.debug.xcconfig */,
+				54F23EFDC985D7B816FB3A8C /* Pods-GrabemUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F14A49D20A26A1E005325BA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F3B4FF421EF0FE600BC6CF9 /* VisitedRestaurantListVC.swift */,
+				4F14A49E20A26A3C005325BA /* LogInVC.swift */,
+				4F14A4A020A26AA5005325BA /* ForgotPasswordVC.swift */,
+				4F60408D20A42E7A00909EE5 /* ChangePasswordVC.swift */,
+				4F60409120A42EA900909EE5 /* SignUpVC.swift */,
+				4F60408F20A42E9300909EE5 /* SettingsVC.swift */,
+				4F60409C20A44B9300909EE5 /* TabbarVC.swift */,
+				4F60409320A42EC800909EE5 /* HomeVC.swift */,
+				4FEFB0EB20A419F500169D7A /* MapVC.swift */,
+				4FEFB0ED20A419F600169D7A /* ListVC.swift */,
+				4F60409720A42EF600909EE5 /* ContactVC.swift */,
+				4F60409920A42F0900909EE5 /* SecondFilterVC.swift */,
+				4FEFB0EC20A419F500169D7A /* DescriptionVC.swift */,
+				4F0D5C2B20B620530036B361 /* RestaurantListObject.swift */,
+				4F2F66F0211B3789008BC8E5 /* LocationVc.swift */,
+				4F6E123F21EEFB96002035E9 /* ScannerVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4F19A12E20ABA88800A3931F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F66F2211B484B008BC8E5 /* File.swift */,
+				4F19A13120ABC25B00A3931F /* AppConstants.swift */,
+				4F19A12F20ABA8A300A3931F /* CommonMethod.swift */,
+				4F2B287520ACC95E00D952B5 /* ServiceClassMethods.swift */,
+				4FA9E4B920A0E2B6007C01E3 /* Extensions.swift */,
+				4F2B287720ACCCBC00D952B5 /* Reachability.swift */,
+				4F2B287920ACCCCC00D952B5 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4F60409B20A42F5000909EE5 /* Cells & XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				4FEFB0E920A419F400169D7A /* InfoWindow.swift */,
+				4FEFB0E720A419F400169D7A /* InfoWindow.xib */,
+				4FEFB0EA20A419F500169D7A /* ListTableViewCell.swift */,
+				4FEFB0E820A419F400169D7A /* ListTableViewCell.xib */,
+				4F3B4FF621EF1B2700BC6CF9 /* VisitedRestaurantTableViewCell.swift */,
+				4F3B4FF721EF1B2700BC6CF9 /* VisitedRestaurantTableViewCell.xib */,
+				4F4D99FB20E1740100E368BD /* CellDescrptn.swift */,
+			);
+			path = "Cells & XIBs";
+			sourceTree = "<group>";
+		};
+		4F6CD23421F090BD008BE598 /* DataModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4F6CD23521F090F6008BE598 /* ScannedListDataModel.swift */,
+			);
+			path = DataModelClasses;
+			sourceTree = "<group>";
+		};
+		4FA9E47F20A0D37C007C01E3 = {
+			isa = PBXGroup;
+			children = (
+				4FA9E48A20A0D37C007C01E3 /* Grabem */,
+				4FA9E49F20A0D37D007C01E3 /* GrabemTests */,
+				4FA9E4AA20A0D37D007C01E3 /* GrabemUITests */,
+				4FA9E48920A0D37C007C01E3 /* Products */,
+				1E97F77920BE0043AA404F3D /* Pods */,
+				6E575A3972A50D7ADC7045E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FA9E48920A0D37C007C01E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA9E48820A0D37C007C01E3 /* Grabem.app */,
+				4FA9E49C20A0D37D007C01E3 /* GrabemTests.xctest */,
+				4FA9E4A720A0D37D007C01E3 /* GrabemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FA9E48A20A0D37C007C01E3 /* Grabem */ = {
+			isa = PBXGroup;
+			children = (
+				4F6CD23421F090BD008BE598 /* DataModelClasses */,
+				4FEF84B320AE5F21008538B2 /* Third Party */,
+				4FEF84AE20AE4F3F008538B2 /* Frameworks */,
+				4F19A12E20ABA88800A3931F /* Helper */,
+				4F14A49D20A26A1E005325BA /* View Controllers */,
+				4F60409B20A42F5000909EE5 /* Cells & XIBs */,
+				4FA9E4BB20A0E717007C01E3 /* Helvetica_reg */,
+				4FA9E48B20A0D37D007C01E3 /* AppDelegate.swift */,
+				4FA9E49220A0D37D007C01E3 /* Assets.xcassets */,
+				4FA9E48F20A0D37D007C01E3 /* Main.storyboard */,
+				4FA9E49420A0D37D007C01E3 /* LaunchScreen.storyboard */,
+				4FA9E49720A0D37D007C01E3 /* Info.plist */,
+			);
+			path = Grabem;
+			sourceTree = "<group>";
+		};
+		4FA9E49F20A0D37D007C01E3 /* GrabemTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA9E4A020A0D37D007C01E3 /* GrabemTests.swift */,
+				4FA9E4A220A0D37D007C01E3 /* Info.plist */,
+			);
+			path = GrabemTests;
+			sourceTree = "<group>";
+		};
+		4FA9E4AA20A0D37D007C01E3 /* GrabemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA9E4AB20A0D37D007C01E3 /* GrabemUITests.swift */,
+				4FA9E4AD20A0D37D007C01E3 /* Info.plist */,
+			);
+			path = GrabemUITests;
+			sourceTree = "<group>";
+		};
+		4FA9E4BB20A0E717007C01E3 /* Helvetica_reg */ = {
+			isa = PBXGroup;
+			children = (
+				4FA9E4BC20A0E717007C01E3 /* Helvi1.ttf */,
+				4FA9E4BD20A0E717007C01E3 /* Helvi2.ttf */,
+				4FA9E4BE20A0E717007C01E3 /* Helvi3.ttf */,
+				4FA9E4BF20A0E717007C01E3 /* Helvi4.ttf */,
+			);
+			path = Helvetica_reg;
+			sourceTree = "<group>";
+		};
+		4FEF84AE20AE4F3F008538B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FEF84AF20AE4F3F008538B2 /* FBSDKCoreKit.framework */,
+				4FEF84B020AE4F3F008538B2 /* FBSDKLoginKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FEF84B320AE5F21008538B2 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				4FEF85A720AE6BD6008538B2 /* ActionSheet */,
+				4FEF85BC20AE6BD6008538B2 /* TwitterLibrary */,
+				4FEF859720AE6BD5008538B2 /* Grabem-Bridging-Header.h */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		4FEF85A720AE6BD6008538B2 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				4FEF85A820AE6BD6008538B2 /* AbstractActionSheetPicker.h */,
+				4FEF85A920AE6BD6008538B2 /* AbstractActionSheetPicker.m */,
+				4FEF85AA20AE6BD6008538B2 /* ActionSheetCustomPicker.h */,
+				4FEF85AB20AE6BD6008538B2 /* ActionSheetCustomPicker.m */,
+				4FEF85AC20AE6BD6008538B2 /* ActionSheetCustomPickerDelegate.h */,
+				4FEF85AD20AE6BD6008538B2 /* ActionSheetDatePicker.h */,
+				4FEF85AE20AE6BD6008538B2 /* ActionSheetDatePicker.m */,
+				4FEF85AF20AE6BD6008538B2 /* ActionSheetDistancePicker.h */,
+				4FEF85B020AE6BD6008538B2 /* ActionSheetDistancePicker.m */,
+				4FEF85B120AE6BD6008538B2 /* ActionSheetLocalePicker.h */,
+				4FEF85B220AE6BD6008538B2 /* ActionSheetLocalePicker.m */,
+				4FEF85B320AE6BD6008538B2 /* ActionSheetStringPicker.h */,
+				4FEF85B420AE6BD6008538B2 /* ActionSheetStringPicker.m */,
+				4FEF85B520AE6BD6008538B2 /* DatePickerDialog.swift */,
+				4FEF85B620AE6BD6008538B2 /* DistancePickerView.h */,
+				4FEF85B720AE6BD6008538B2 /* DistancePickerView.m */,
+				4FEF85B820AE6BD6008538B2 /* SWActionSheet.h */,
+				4FEF85B920AE6BD6008538B2 /* SWActionSheet.m */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		4FEF85BC20AE6BD6008538B2 /* TwitterLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4FEF85BD20AE6BD6008538B2 /* FHSStream.h */,
+				4FEF85BE20AE6BD6008538B2 /* FHSStream.m */,
+				4FEF85BF20AE6BD6008538B2 /* FHSTwitterEngine1.h */,
+				4FEF85C020AE6BD6008538B2 /* FHSTwitterEngine1.m */,
+			);
+			path = TwitterLibrary;
+			sourceTree = "<group>";
+		};
+		6E575A3972A50D7ADC7045E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA8D71D5DD6C7BA990B86797 /* Pods_Grabem.framework */,
+				2CC7D2514592B13DE7D1B155 /* Pods_GrabemTests.framework */,
+				35A7733311BBAE5E58375C10 /* Pods_GrabemUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FA9E48720A0D37C007C01E3 /* Grabem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA9E4B020A0D37D007C01E3 /* Build configuration list for PBXNativeTarget "Grabem" */;
+			buildPhases = (
+				47E70F75FAF2EB4890205CE5 /* [CP] Check Pods Manifest.lock */,
+				4FA9E48420A0D37C007C01E3 /* Sources */,
+				4FA9E48520A0D37C007C01E3 /* Frameworks */,
+				4FA9E48620A0D37C007C01E3 /* Resources */,
+				8490BB6B7AAF13FB3B00525C /* [CP] Embed Pods Frameworks */,
+				63B9835C9BA39F26FABA8DED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grabem;
+			productName = Grabem;
+			productReference = 4FA9E48820A0D37C007C01E3 /* Grabem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FA9E49B20A0D37D007C01E3 /* GrabemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA9E4B320A0D37D007C01E3 /* Build configuration list for PBXNativeTarget "GrabemTests" */;
+			buildPhases = (
+				814619395A77A7C97300B7F7 /* [CP] Check Pods Manifest.lock */,
+				4FA9E49820A0D37D007C01E3 /* Sources */,
+				4FA9E49920A0D37D007C01E3 /* Frameworks */,
+				4FA9E49A20A0D37D007C01E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA9E49E20A0D37D007C01E3 /* PBXTargetDependency */,
+			);
+			name = GrabemTests;
+			productName = GrabemTests;
+			productReference = 4FA9E49C20A0D37D007C01E3 /* GrabemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FA9E4A620A0D37D007C01E3 /* GrabemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA9E4B620A0D37D007C01E3 /* Build configuration list for PBXNativeTarget "GrabemUITests" */;
+			buildPhases = (
+				1A1892F3DE51060D69A6E2D2 /* [CP] Check Pods Manifest.lock */,
+				4FA9E4A320A0D37D007C01E3 /* Sources */,
+				4FA9E4A420A0D37D007C01E3 /* Frameworks */,
+				4FA9E4A520A0D37D007C01E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA9E4A920A0D37D007C01E3 /* PBXTargetDependency */,
+			);
+			name = GrabemUITests;
+			productName = GrabemUITests;
+			productReference = 4FA9E4A720A0D37D007C01E3 /* GrabemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA9E48020A0D37C007C01E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = callsoft;
+				TargetAttributes = {
+					4FA9E48720A0D37C007C01E3 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+					};
+					4FA9E49B20A0D37D007C01E3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FA9E48720A0D37C007C01E3;
+					};
+					4FA9E4A620A0D37D007C01E3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FA9E48720A0D37C007C01E3;
+					};
+				};
+			};
+			buildConfigurationList = 4FA9E48320A0D37C007C01E3 /* Build configuration list for PBXProject "Grabem" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FA9E47F20A0D37C007C01E3;
+			productRefGroup = 4FA9E48920A0D37C007C01E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FA9E48720A0D37C007C01E3 /* Grabem */,
+				4FA9E49B20A0D37D007C01E3 /* GrabemTests */,
+				4FA9E4A620A0D37D007C01E3 /* GrabemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FA9E48620A0D37C007C01E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA9E4C220A0E717007C01E3 /* Helvi3.ttf in Resources */,
+				4FA9E49620A0D37D007C01E3 /* LaunchScreen.storyboard in Resources */,
+				4FA9E4C120A0E717007C01E3 /* Helvi2.ttf in Resources */,
+				4FEFB0EE20A419F600169D7A /* InfoWindow.xib in Resources */,
+				4FEFB0EF20A419F600169D7A /* ListTableViewCell.xib in Resources */,
+				4FA9E4C320A0E717007C01E3 /* Helvi4.ttf in Resources */,
+				4FA9E49320A0D37D007C01E3 /* Assets.xcassets in Resources */,
+				4F3B4FF921EF1B2700BC6CF9 /* VisitedRestaurantTableViewCell.xib in Resources */,
+				4FA9E49120A0D37D007C01E3 /* Main.storyboard in Resources */,
+				4FA9E4C020A0E717007C01E3 /* Helvi1.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA9E49A20A0D37D007C01E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA9E4A520A0D37D007C01E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1892F3DE51060D69A6E2D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrabemUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47E70F75FAF2EB4890205CE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grabem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B9835C9BA39F26FABA8DED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Grabem/Pods-Grabem-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grabem/Pods-Grabem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814619395A77A7C97300B7F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrabemTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8490BB6B7AAF13FB3B00525C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Grabem/Pods-Grabem-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/InstagramKit/InstagramKit.framework",
+				"${BUILT_PRODUCTS_DIR}/InstagramLogin/InstagramLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstagramKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstagramLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grabem/Pods-Grabem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FA9E48420A0D37C007C01E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6CD23621F090F6008BE598 /* ScannedListDataModel.swift in Sources */,
+				4F19A13220ABC25B00A3931F /* AppConstants.swift in Sources */,
+				4FEF85C320AE6BD7008538B2 /* ActionSheetDatePicker.m in Sources */,
+				4F6E124021EEFB96002035E9 /* ScannerVC.swift in Sources */,
+				4F60409020A42E9300909EE5 /* SettingsVC.swift in Sources */,
+				4FA9E4BA20A0E2B6007C01E3 /* Extensions.swift in Sources */,
+				4FEF85C620AE6BD7008538B2 /* ActionSheetStringPicker.m in Sources */,
+				4F14A49F20A26A3C005325BA /* LogInVC.swift in Sources */,
+				4F3B4FF821EF1B2700BC6CF9 /* VisitedRestaurantTableViewCell.swift in Sources */,
+				4F19A13020ABA8A400A3931F /* CommonMethod.swift in Sources */,
+				4FEF85C520AE6BD7008538B2 /* ActionSheetLocalePicker.m in Sources */,
+				4FEF85C720AE6BD7008538B2 /* DatePickerDialog.swift in Sources */,
+				4F14A4A120A26AA5005325BA /* ForgotPasswordVC.swift in Sources */,
+				4F60409420A42EC800909EE5 /* HomeVC.swift in Sources */,
+				4F0D5C2C20B620530036B361 /* RestaurantListObject.swift in Sources */,
+				4F4D99FC20E1740100E368BD /* CellDescrptn.swift in Sources */,
+				4F2B287620ACC95E00D952B5 /* ServiceClassMethods.swift in Sources */,
+				4F60409220A42EA900909EE5 /* SignUpVC.swift in Sources */,
+				4FEFB0F420A419F600169D7A /* ListVC.swift in Sources */,
+				4FEF85CC20AE6BD7008538B2 /* FHSStream.m in Sources */,
+				4F60409D20A44B9300909EE5 /* TabbarVC.swift in Sources */,
+				4F2B287A20ACCCCC00D952B5 /* Helper.swift in Sources */,
+				4FEFB0F320A419F600169D7A /* DescriptionVC.swift in Sources */,
+				4F60409820A42EF600909EE5 /* ContactVC.swift in Sources */,
+				4F2B287820ACCCBC00D952B5 /* Reachability.swift in Sources */,
+				4F60409A20A42F0900909EE5 /* SecondFilterVC.swift in Sources */,
+				4FEF85C920AE6BD7008538B2 /* SWActionSheet.m in Sources */,
+				4FEF85C820AE6BD7008538B2 /* DistancePickerView.m in Sources */,
+				4F2F66F3211B484B008BC8E5 /* File.swift in Sources */,
+				4FEF85C120AE6BD7008538B2 /* AbstractActionSheetPicker.m in Sources */,
+				4FA9E48C20A0D37D007C01E3 /* AppDelegate.swift in Sources */,
+				4FEFB0F220A419F600169D7A /* MapVC.swift in Sources */,
+				4FEF85CD20AE6BD7008538B2 /* FHSTwitterEngine1.m in Sources */,
+				4FEF85C220AE6BD7008538B2 /* ActionSheetCustomPicker.m in Sources */,
+				4F2F66F1211B3789008BC8E5 /* LocationVc.swift in Sources */,
+				4F60408E20A42E7A00909EE5 /* ChangePasswordVC.swift in Sources */,
+				4FEFB0F020A419F600169D7A /* InfoWindow.swift in Sources */,
+				4FEF85C420AE6BD7008538B2 /* ActionSheetDistancePicker.m in Sources */,
+				4F3B4FF521EF0FE600BC6CF9 /* VisitedRestaurantListVC.swift in Sources */,
+				4FEFB0F120A419F600169D7A /* ListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA9E49820A0D37D007C01E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA9E4A120A0D37D007C01E3 /* GrabemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA9E4A320A0D37D007C01E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA9E4AC20A0D37D007C01E3 /* GrabemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FA9E49E20A0D37D007C01E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA9E48720A0D37C007C01E3 /* Grabem */;
+			targetProxy = 4FA9E49D20A0D37D007C01E3 /* PBXContainerItemProxy */;
+		};
+		4FA9E4A920A0D37D007C01E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA9E48720A0D37C007C01E3 /* Grabem */;
+			targetProxy = 4FA9E4A820A0D37D007C01E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FA9E48F20A0D37D007C01E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA9E49020A0D37D007C01E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FA9E49420A0D37D007C01E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA9E49520A0D37D007C01E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FA9E4AE20A0D37D007C01E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dacallsoft/Desktop/Grabem@7Feb2109 /Grabem/Third Party/Grabem-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FA9E4AF20A0D37D007C01E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dacallsoft/Desktop/Grabem@7Feb2109 /Grabem/Third Party/Grabem-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FA9E4B120A0D37D007C01E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D3DA0627217E49658C1FA5 /* Pods-Grabem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 588PQP5NK6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Grabem/Frameworks",
+				);
+				INFOPLIST_FILE = Grabem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobulous.grabem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e9d5a68d-8bf5-4060-a030-69d0b13e3a4d";
+				PROVISIONING_PROFILE_SPECIFIER = Grabem_Dev_Latest;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/deeptisharma/Downloads/Grabem@7Feb2109 /Grabem/Third Party/Grabem-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4FA9E4B220A0D37D007C01E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A33BC6F9232EFFF5B3386D8 /* Pods-Grabem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 588PQP5NK6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Grabem/Frameworks",
+				);
+				INFOPLIST_FILE = Grabem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobulous.grabem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e9d5a68d-8bf5-4060-a030-69d0b13e3a4d";
+				PROVISIONING_PROFILE_SPECIFIER = Grabem_Dev_Latest;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/deeptisharma/Downloads/Grabem@7Feb2109 /Grabem/Third Party/Grabem-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4FA9E4B420A0D37D007C01E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6B5123C47693A1F988C967 /* Pods-GrabemTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrabemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobulous.Grabem.GrabemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grabem.app/Grabem";
+			};
+			name = Debug;
+		};
+		4FA9E4B520A0D37D007C01E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CF397BFA17C3A3E627281C /* Pods-GrabemTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrabemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobulous.Grabem.GrabemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grabem.app/Grabem";
+			};
+			name = Release;
+		};
+		4FA9E4B720A0D37D007C01E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1C636618C1B94A74FA25AD /* Pods-GrabemUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrabemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobulous.Grabem.GrabemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Grabem;
+			};
+			name = Debug;
+		};
+		4FA9E4B820A0D37D007C01E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F23EFDC985D7B816FB3A8C /* Pods-GrabemUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrabemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobulous.Grabem.GrabemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Grabem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FA9E48320A0D37C007C01E3 /* Build configuration list for PBXProject "Grabem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA9E4AE20A0D37D007C01E3 /* Debug */,
+				4FA9E4AF20A0D37D007C01E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA9E4B020A0D37D007C01E3 /* Build configuration list for PBXNativeTarget "Grabem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA9E4B120A0D37D007C01E3 /* Debug */,
+				4FA9E4B220A0D37D007C01E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA9E4B320A0D37D007C01E3 /* Build configuration list for PBXNativeTarget "GrabemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA9E4B420A0D37D007C01E3 /* Debug */,
+				4FA9E4B520A0D37D007C01E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA9E4B620A0D37D007C01E3 /* Build configuration list for PBXNativeTarget "GrabemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA9E4B720A0D37D007C01E3 /* Debug */,
+				4FA9E4B820A0D37D007C01E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA9E48020A0D37C007C01E3 /* Project object */;
+}
